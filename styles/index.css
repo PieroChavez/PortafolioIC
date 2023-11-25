@@ -1,0 +1,146 @@
+*{
+    font-family: Arial;
+}
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+
+header {
+    color: #3c3c3cf1;
+    padding: 5px;
+    background-color: white; 
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;  
+    justify-content: center; 
+    width: auto;
+    flex-basis: 0;
+}
+
+nav ul li {
+    margin-right: 25px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.portada {
+    background-image: url('https://perfectdailygrind.com/es/wp-content/uploads/sites/2/2022/04/image2-9.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 150px; /* Ajusta la altura según tus preferencias */
+    color: #fff;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra para el texto */
+  
+ 
+}
+
+#dos {
+    background-color: white;
+    border-radius: 20px;
+}
+.informacion-personal {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.perfil img {
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 0.5;
+}
+
+.actividades {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.actividades button {
+    background-color: #187532;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .informacion-personal {
+        flex-direction: row;
+    }
+
+    .info {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .actividades {
+        margin-top: 0;
+    }
+}
+
+.alternativas {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    height: 50px;
+
+    
+}
+
+.opcion {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.opcion:hover {
+    color: #4CAF50;
+}
+
+
+.actividades-habilidades {
+    display: flex;
+    flex-direction: column; 
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.actividad {
+    text-align: justify;
+    margin: 10px;
+}
+
+

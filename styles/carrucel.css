@@ -1,0 +1,121 @@
+
+.proyectos {
+    overflow: hidden;
+    height: 300px;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    animation: desplazarProyectos 1ms linear infinite;
+    width: 600%; /*Ajustamos el ancho para acomodar todas las imágenes */
+}
+
+
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes desplazarProyectos {
+    0%, 100% { transform: translateX(0); }
+    16.666%, 83.333% { transform: translateX(-100%); }
+    33.333%, 66.666% { transform: translateX(-200%); }
+}
+
+/*
+.carousel {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel img.current {
+  opacity: 1;
+}
+
+.carousel img.next,
+.carousel img.prev {
+  opacity: 0;
+}
+
+@keyframes carousel-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.carousel img.next {
+  animation: carousel-animation 2s forwards;
+}
+
+.carousel img.prev {
+  animation: carousel-animation 2s forwards reverse;
+}
+
+
+.proyectos {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.proyecto {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.proyecto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proyecto p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.proyectos .prev, .proyectos .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.proyectos .prev {
+    left: 10px;
+}
+
+.proyectos .next {
+    right: 10px;
+}
+
+.proyectos .proyecto.active {
+    opacity: 1;
+}
