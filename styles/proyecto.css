@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#catalog {
+    padding: 50px 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para pantallas grandes (lg) */
+@media (min-width: 992px) {
+    .project {
+        width: 25%; /* 4 proyectos por fila */
+    }
+}
+/* Estilos para pantallas grandes (lg) */
+@media (min-width: 992px) {
+    .project {
+        width: 100%; /* 1 proyecto por columna */
+    }
+}
