@@ -14,10 +14,11 @@
 
 
 }
-
+/*
 body {
     color: #000000;
 }
+*/
 
 
 header {
@@ -45,7 +46,6 @@ header {
 }
 
 
-/* boton hamburguer */
 
 .nav-toggle-label span,
 .nav-toggle-label span::before,

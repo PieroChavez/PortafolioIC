@@ -1,4 +1,48 @@
 *{
     background-color: black;
+    color: white;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.proyecto {
+    width: calc(33.33% - 20px); /* 3 proyectos por fila en pantallas grandes */
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
 

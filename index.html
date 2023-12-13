@@ -5,12 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piero</title>
     <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/header.css">
 </head>
 <body>
     
-    <iframe src="/layouts/header.html" width="100%" height="50px" frameborder="0"></iframe>
-    <iframe class="portada-uno" src="/layouts/carrucel.html" width="100%" height="600px" frameborder="0"></iframe>
- 
+   
+    <header id="main">
+        <h1 class="logo">Piero Chavez </h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a class="btn-nav" href="/login/proyectos.html">Proyectos</a></li>
+                <li><a class="btn-nav" href="/login/juegos.html">Juegos</a></li>
+                <li><a class="btn-nav" href="/login/desafios.html">Desafios</a></li>
+
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
+
+        <iframe class="portada-uno" src="/layouts/carrucel.html" width="100%" height="500px" frameborder="0"></iframe>
+
+
+        <main id="proyectos" class="proyectos-container">
+            <div class="proyecto">
+                <img src="proyecto1.jpg" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción detallada del Proyecto 1.</p>
+            </div>
+    
+            <div class="proyecto">
+                <img src="proyecto2.jpg" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción detallada del Proyecto 2.</p>
+            </div>
+    
+            <div class="proyecto">
+                <img src="proyecto3.jpg" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción detallada del Proyecto 3.</p>
+            </div>
+        </main>
 
 
 
