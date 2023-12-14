@@ -5,12 +5,7 @@ body {
     position: relative;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
+
 
 #catalog {
     padding: 50px 20px;

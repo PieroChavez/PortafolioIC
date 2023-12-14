@@ -4,13 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/proyecto.css">
-    <title>Mi Portafolio</title>
+    <title>Proyectos</title>
 </head>
 <body>
 
-    <header>
-        <h1>Mi Portafolio</h1>
+    <link rel="stylesheet" href="/styles/header.css">
+
+
+    <header id="main">
+        <a href="/index.html"><h1 class="logo">  Piero Chavez </h1></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a class="btn-nav" href="/login/proyectos.html">Proyectos</a></li>
+                <li><a class="btn-nav" href="/login/juegos.html">Juegos</a></li>
+                <li><a class="btn-nav" href="/login/desafios.html">Desafios</a></li>
+
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
     </header>
+
 
     <section id="catalog">
         <h2>Catálogo de Trabajos</h2>
@@ -73,12 +89,9 @@
 
     </section>
 
-    <!-- Resto de tu contenido -->
 
-    <footer>
-        <p>&copy; 2023 [Tu Nombre] | Todos los derechos reservados</p>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <iframe src="/layouts/footer.html" width="100%" height="200px" frameborder="0"></iframe>
+
 </body>
 </html>

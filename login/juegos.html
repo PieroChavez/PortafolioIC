@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos</title>
+    <link rel="stylesheet" href="/styles/juego.estilos.css">
+</head>
+<body>
+    <link rel="stylesheet" href="/styles/header.css">
+
+
+    <header id="main">
+        <a href="/index.html"><h1 class="logo">  Piero Chavez </h1></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a class="btn-nav" href="/login/proyectos.html">Proyectos</a></li>
+                <li><a class="btn-nav" href="/login/juegos.html">Juegos</a></li>
+                <li><a class="btn-nav" href="/login/desafios.html">Desafios</a></li>
+
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
+    
+
+    <main>
+        <div id="cronometro" class="cronometro-container">
+            <p id="tiempo">00:00:00</p>
+            <button onclick="iniciarCronometro()">Iniciar</button>
+            <button onclick="detenerCronometro()">Detener</button>
+            <button onclick="reiniciarCronometro()">Reiniciar</button>
+        </div>
+    </main>
+
+
+
+    <iframe src="/layouts/footer.html" width="100%" height="200px" frameborder="0"></iframe>
+
+    <script src="/js/juegos.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
